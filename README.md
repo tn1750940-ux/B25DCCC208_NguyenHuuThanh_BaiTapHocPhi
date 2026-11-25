@@ -37,7 +37,7 @@ Mỗi thư mục có sẵn `input.txt` là dữ liệu ví dụ trong đề.
 Yêu cầu: JDK 8 trở lên.
 
 ```bash
-cd Cau1            # hoặc Cau2, Cau3, Cau4
+cd Cau1
 javac -encoding UTF-8 Main.java
 java Main < input.txt
 ```
