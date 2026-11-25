@@ -1,8 +1,10 @@
 # Bài tập Lập trình hướng đối tượng – Quản lý học phí
 
-- **Họ tên:** <HỌ TÊN>
-- **Mã sinh viên:** <MÃ SV>
-- **Lớp:** <LỚP>
+- **Họ tên:** Nguyễn Hữu Thành
+- **Mã sinh viên:** B25DCCC208
+- **Lớp hành chính:** D25CQCC04-B
+- **Lớp tín chỉ:** INT1332-20261-18
+- **Trường:** Học viện Công nghệ Bưu chính Viễn thông (PTIT)
 
 ## Cấu trúc thư mục
 
