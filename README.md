@@ -37,7 +37,7 @@ Mỗi thư mục có sẵn `input.txt` là dữ liệu ví dụ trong đề.
 Yêu cầu: JDK 8 trở lên.
 
 ```bash
-cd Cau1
+cd Cau1            
 javac -encoding UTF-8 Main.java
 java Main < input.txt
 ```
@@ -49,3 +49,11 @@ cmd /c "java Main < input.txt"
 ```
 
 Hoặc chạy `java Main` rồi nhập dữ liệu trực tiếp từ bàn phím.
+
+### Chạy cả 4 câu một lần
+
+Chạy tại thư mục gốc của project (PowerShell):
+
+```powershell
+foreach($c in 1..4){ "=== Cau$c ==="; cd "Cau$c"; javac -encoding UTF-8 Main.java; cmd /c "java Main < input.txt"; cd .. }
+```
